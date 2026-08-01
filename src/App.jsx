@@ -39,6 +39,7 @@ const App = () => {
         <option value="Fruits">Fruits</option>
         <option value="Dairy">Dairy</option>
       </select>
+      
 
       <ProductList selectedCategory={selectedCategory} onAddToCart={addToCart} />
       <Cart items={cart} onRemove={removeFromCart} />
